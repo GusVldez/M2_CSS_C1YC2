@@ -1,0 +1,49 @@
+P{
+  color: rgb(129, 67, 23);
+  border: 15px solid burlywood;
+  width: 320px;
+}
+div {
+  background-color: violet;
+  }
+button{
+    background-color: brown;
+    color: blanchedalmond;
+    padding: 10px 22px;
+    border: none;
+       /* este es la funsion que boton se aactive al pasar el mouse*/
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(27, 74, 161);
+}
+h1 {
+  font-size: 30px ;
+  /* se ponen los diferentes tipos de letra, por si no existe en algun navegador*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  text-align: center; /* Centra el texto */
+}
+h2{
+  text-size-adjust: 20px;
+}
+.contenedor{
+   width: 190px;
+   height: 150px;
+   background-color: cadetblue;
+   padding: 30px;
+   margin: 40px;
+   border: 2px dotted;
+}
+
+.ejemplo-box-sizing {
+  width: 250px;
+  padding: 10px;
+  border: 12px solid;
+  background-color: brown;
+  
+}
+/* para aplicar bordeado standar automatico a todas */
+* {
+  box-sizing: border-box;
+}
